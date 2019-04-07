@@ -1,0 +1,9 @@
+<html>
+<body>
+The new Open Exchange introduce some funny questions about general pubsub mechanisms. The main idea is simple : in main protocols, fo pubsub to work, Producers and Consumers MUST share something common : the "topic" pattern.
+<br/>This implies that the so called "decoupling system" is not so "decoupled", because if this pattern changes, we must change Producer AND Consumer.
+<br/>
+<br/>
+So, the new idea here is to introduce something like "The Binder Stakeholder" that would be nor the Producer, nor the Consumer : consumer gets messages it should just treat, point.
+The destinations routes are decided at two levels here :<br/>
+<li>binding level : 
