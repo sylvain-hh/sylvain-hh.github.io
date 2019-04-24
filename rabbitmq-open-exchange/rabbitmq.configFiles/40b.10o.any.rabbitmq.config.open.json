@@ -1,0 +1,867 @@
+{
+  "rabbit_version": "3.7.0+rc.2.11.g7e93369",
+  "queues": [
+    {
+      "name": "devnull",
+      "vhost": "/",
+      "durable": false,
+      "auto_delete": false,
+      "arguments": {
+        "x-message-ttl": 0
+      }
+    }
+  ],
+  "exchanges": [
+    {
+      "name": "open",
+      "vhost": "/",
+      "type": "x-open",
+      "durable": false,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    }
+  ],
+  "bindings": [
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "jhgfdsiu": "aa",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "oo": "p",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "uytrezsp": "a",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "yhh": "z",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+        {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "jhsgfdsiu": "aa",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "ofo": "p",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "auytrezsp": "a",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "ayhh": "z",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+        {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "jhgfdsddiu": "aa",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "oddo": "p",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "uytremmzsp": "a",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "yhaah": "z",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+        {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "jhsgfdsizau": "aa",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "oflo": "p",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "auytrehzsp": "a",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "ayfhh": "z",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+    }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "jhgjujufdsiu": "aa",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "dedeoo": "p",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "unytrezsp": "a",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "ymhh": "z",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+        {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "ljhsgfdsiu": "aa",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "kofo": "p",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "jauytrezsp": "a",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "iayhh": "z",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+        {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "hjhgfdsddiu": "aa",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "goddo": "p",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "fuytremmzsp": "a",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "eyhaah": "z",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+        {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "djhsgfdsizau": "aa",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "coflo": "p",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "abuytrehzsp": "a",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "aayfhh": "z",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+        {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "mhjhgfdsddiu": "aa",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "ggoddo": "p",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "afuytremmzsp": "a",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "keyhaah": "z",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+        {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "idjhsgfdsizau": "aa",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "hcoflo": "p",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "dabuytrehzsp": "a",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    },
+    {
+      "source": "open",
+      "vhost": "/",
+      "destination": "devnull",
+      "destination_type": "queue",
+      "routing_key": "",
+      "arguments": {
+        "saayfhh": "z",
+        "sjhgfdsiu": "ppaa",
+        
+        "xjhgfdsiu": "vfaa",
+        "pjhgfdsiu": "xsaa",
+        "qjhgfdsiu": "vfaa",
+        "bjhgfdsiu": "nhaa",
+        "mjhgfdsiu": "klaa",
+        
+        "ojhgfdsiu": "xuaa",
+        "zjhgfdsiu": "soaa",
+        "hjhgfdsiu": "lxaa","x-match": "any"
+      }
+    }
+  ]
+}
